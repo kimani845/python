@@ -327,8 +327,8 @@ def addItems(list):
 myList = ["Orange", "Mango"]
 addItems(myList)
 print(myList) # this code is displaying the output as it is supposed to
-#  the con function is used to add two integers or strings
-def con (a, b):
+#  the con function is used to add two integers or strings together
+def con (a, b): # con is short for concatenate
     return a + b 
 # it can  also be used to add lists and also tuples
 con (['a', '3'], ('b', '4'))
